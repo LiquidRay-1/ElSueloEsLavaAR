@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B1FB112BFD4DA200785381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1FB102BFD4DA200785381 /* AppDelegate.swift */; };
+		C6B1FB132BFD4DA200785381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1FB122BFD4DA200785381 /* SceneDelegate.swift */; };
+		C6B1FB152BFD4DA200785381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1FB142BFD4DA200785381 /* ViewController.swift */; };
+		C6B1FB182BFD4DA200785381 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6B1FB172BFD4DA200785381 /* Base */; };
+		C6B1FB1A2BFD4DA400785381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B1FB192BFD4DA400785381 /* Assets.xcassets */; };
+		C6B1FB1D2BFD4DA400785381 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6B1FB1C2BFD4DA400785381 /* Base */; };
+		C6B1FB282BFD4DA400785381 /* ElSueloEsLavaARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1FB272BFD4DA400785381 /* ElSueloEsLavaARTests.swift */; };
+		C6B1FB322BFD4DA400785381 /* ElSueloEsLavaARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1FB312BFD4DA400785381 /* ElSueloEsLavaARUITests.swift */; };
+		C6B1FB342BFD4DA400785381 /* ElSueloEsLavaARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1FB332BFD4DA400785381 /* ElSueloEsLavaARUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B1FB242BFD4DA400785381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B1FB052BFD4DA200785381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B1FB0C2BFD4DA200785381;
+			remoteInfo = ElSueloEsLavaAR;
+		};
+		C6B1FB2E2BFD4DA400785381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B1FB052BFD4DA200785381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B1FB0C2BFD4DA200785381;
+			remoteInfo = ElSueloEsLavaAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6B1FB0D2BFD4DA200785381 /* ElSueloEsLavaAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElSueloEsLavaAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B1FB102BFD4DA200785381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6B1FB122BFD4DA200785381 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6B1FB142BFD4DA200785381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B1FB172BFD4DA200785381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B1FB192BFD4DA400785381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B1FB1C2BFD4DA400785381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6B1FB1E2BFD4DA400785381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B1FB232BFD4DA400785381 /* ElSueloEsLavaARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElSueloEsLavaARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B1FB272BFD4DA400785381 /* ElSueloEsLavaARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElSueloEsLavaARTests.swift; sourceTree = "<group>"; };
+		C6B1FB2D2BFD4DA400785381 /* ElSueloEsLavaARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElSueloEsLavaARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B1FB312BFD4DA400785381 /* ElSueloEsLavaARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElSueloEsLavaARUITests.swift; sourceTree = "<group>"; };
+		C6B1FB332BFD4DA400785381 /* ElSueloEsLavaARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElSueloEsLavaARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B1FB0A2BFD4DA200785381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1FB202BFD4DA400785381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1FB2A2BFD4DA400785381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B1FB042BFD4DA200785381 = {
+			isa = PBXGroup;
+			children = (
+				C6B1FB0F2BFD4DA200785381 /* ElSueloEsLavaAR */,
+				C6B1FB262BFD4DA400785381 /* ElSueloEsLavaARTests */,
+				C6B1FB302BFD4DA400785381 /* ElSueloEsLavaARUITests */,
+				C6B1FB0E2BFD4DA200785381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B1FB0E2BFD4DA200785381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1FB0D2BFD4DA200785381 /* ElSueloEsLavaAR.app */,
+				C6B1FB232BFD4DA400785381 /* ElSueloEsLavaARTests.xctest */,
+				C6B1FB2D2BFD4DA400785381 /* ElSueloEsLavaARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B1FB0F2BFD4DA200785381 /* ElSueloEsLavaAR */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1FB102BFD4DA200785381 /* AppDelegate.swift */,
+				C6B1FB122BFD4DA200785381 /* SceneDelegate.swift */,
+				C6B1FB142BFD4DA200785381 /* ViewController.swift */,
+				C6B1FB162BFD4DA200785381 /* Main.storyboard */,
+				C6B1FB192BFD4DA400785381 /* Assets.xcassets */,
+				C6B1FB1B2BFD4DA400785381 /* LaunchScreen.storyboard */,
+				C6B1FB1E2BFD4DA400785381 /* Info.plist */,
+			);
+			path = ElSueloEsLavaAR;
+			sourceTree = "<group>";
+		};
+		C6B1FB262BFD4DA400785381 /* ElSueloEsLavaARTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1FB272BFD4DA400785381 /* ElSueloEsLavaARTests.swift */,
+			);
+			path = ElSueloEsLavaARTests;
+			sourceTree = "<group>";
+		};
+		C6B1FB302BFD4DA400785381 /* ElSueloEsLavaARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1FB312BFD4DA400785381 /* ElSueloEsLavaARUITests.swift */,
+				C6B1FB332BFD4DA400785381 /* ElSueloEsLavaARUITestsLaunchTests.swift */,
+			);
+			path = ElSueloEsLavaARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B1FB0C2BFD4DA200785381 /* ElSueloEsLavaAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B1FB372BFD4DA400785381 /* Build configuration list for PBXNativeTarget "ElSueloEsLavaAR" */;
+			buildPhases = (
+				C6B1FB092BFD4DA200785381 /* Sources */,
+				C6B1FB0A2BFD4DA200785381 /* Frameworks */,
+				C6B1FB0B2BFD4DA200785381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElSueloEsLavaAR;
+			productName = ElSueloEsLavaAR;
+			productReference = C6B1FB0D2BFD4DA200785381 /* ElSueloEsLavaAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B1FB222BFD4DA400785381 /* ElSueloEsLavaARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B1FB3A2BFD4DA400785381 /* Build configuration list for PBXNativeTarget "ElSueloEsLavaARTests" */;
+			buildPhases = (
+				C6B1FB1F2BFD4DA400785381 /* Sources */,
+				C6B1FB202BFD4DA400785381 /* Frameworks */,
+				C6B1FB212BFD4DA400785381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B1FB252BFD4DA400785381 /* PBXTargetDependency */,
+			);
+			name = ElSueloEsLavaARTests;
+			productName = ElSueloEsLavaARTests;
+			productReference = C6B1FB232BFD4DA400785381 /* ElSueloEsLavaARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6B1FB2C2BFD4DA400785381 /* ElSueloEsLavaARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B1FB3D2BFD4DA400785381 /* Build configuration list for PBXNativeTarget "ElSueloEsLavaARUITests" */;
+			buildPhases = (
+				C6B1FB292BFD4DA400785381 /* Sources */,
+				C6B1FB2A2BFD4DA400785381 /* Frameworks */,
+				C6B1FB2B2BFD4DA400785381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B1FB2F2BFD4DA400785381 /* PBXTargetDependency */,
+			);
+			name = ElSueloEsLavaARUITests;
+			productName = ElSueloEsLavaARUITests;
+			productReference = C6B1FB2D2BFD4DA400785381 /* ElSueloEsLavaARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B1FB052BFD4DA200785381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C6B1FB0C2BFD4DA200785381 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C6B1FB222BFD4DA400785381 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C6B1FB0C2BFD4DA200785381;
+					};
+					C6B1FB2C2BFD4DA400785381 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C6B1FB0C2BFD4DA200785381;
+					};
+				};
+			};
+			buildConfigurationList = C6B1FB082BFD4DA200785381 /* Build configuration list for PBXProject "ElSueloEsLavaAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B1FB042BFD4DA200785381;
+			productRefGroup = C6B1FB0E2BFD4DA200785381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B1FB0C2BFD4DA200785381 /* ElSueloEsLavaAR */,
+				C6B1FB222BFD4DA400785381 /* ElSueloEsLavaARTests */,
+				C6B1FB2C2BFD4DA400785381 /* ElSueloEsLavaARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B1FB0B2BFD4DA200785381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1FB1A2BFD4DA400785381 /* Assets.xcassets in Resources */,
+				C6B1FB1D2BFD4DA400785381 /* Base in Resources */,
+				C6B1FB182BFD4DA200785381 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1FB212BFD4DA400785381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1FB2B2BFD4DA400785381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B1FB092BFD4DA200785381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1FB152BFD4DA200785381 /* ViewController.swift in Sources */,
+				C6B1FB112BFD4DA200785381 /* AppDelegate.swift in Sources */,
+				C6B1FB132BFD4DA200785381 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1FB1F2BFD4DA400785381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1FB282BFD4DA400785381 /* ElSueloEsLavaARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1FB292BFD4DA400785381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1FB322BFD4DA400785381 /* ElSueloEsLavaARUITests.swift in Sources */,
+				C6B1FB342BFD4DA400785381 /* ElSueloEsLavaARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B1FB252BFD4DA400785381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B1FB0C2BFD4DA200785381 /* ElSueloEsLavaAR */;
+			targetProxy = C6B1FB242BFD4DA400785381 /* PBXContainerItemProxy */;
+		};
+		C6B1FB2F2BFD4DA400785381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B1FB0C2BFD4DA200785381 /* ElSueloEsLavaAR */;
+			targetProxy = C6B1FB2E2BFD4DA400785381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B1FB162BFD4DA200785381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B1FB172BFD4DA200785381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B1FB1B2BFD4DA400785381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B1FB1C2BFD4DA400785381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B1FB352BFD4DA400785381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6B1FB362BFD4DA400785381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B1FB382BFD4DA400785381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElSueloEsLavaAR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ElSueloEsLavaAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6B1FB392BFD4DA400785381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElSueloEsLavaAR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ElSueloEsLavaAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6B1FB3B2BFD4DA400785381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ElSueloEsLavaARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElSueloEsLavaAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElSueloEsLavaAR";
+			};
+			name = Debug;
+		};
+		C6B1FB3C2BFD4DA400785381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ElSueloEsLavaARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElSueloEsLavaAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElSueloEsLavaAR";
+			};
+			name = Release;
+		};
+		C6B1FB3E2BFD4DA400785381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ElSueloEsLavaARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElSueloEsLavaAR;
+			};
+			name = Debug;
+		};
+		C6B1FB3F2BFD4DA400785381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ElSueloEsLavaARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElSueloEsLavaAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B1FB082BFD4DA200785381 /* Build configuration list for PBXProject "ElSueloEsLavaAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B1FB352BFD4DA400785381 /* Debug */,
+				C6B1FB362BFD4DA400785381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B1FB372BFD4DA400785381 /* Build configuration list for PBXNativeTarget "ElSueloEsLavaAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B1FB382BFD4DA400785381 /* Debug */,
+				C6B1FB392BFD4DA400785381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B1FB3A2BFD4DA400785381 /* Build configuration list for PBXNativeTarget "ElSueloEsLavaARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B1FB3B2BFD4DA400785381 /* Debug */,
+				C6B1FB3C2BFD4DA400785381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B1FB3D2BFD4DA400785381 /* Build configuration list for PBXNativeTarget "ElSueloEsLavaARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B1FB3E2BFD4DA400785381 /* Debug */,
+				C6B1FB3F2BFD4DA400785381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B1FB052BFD4DA200785381 /* Project object */;
+}
